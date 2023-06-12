@@ -33,7 +33,7 @@
 <script setup>
 import { ref } from 'vue';
 let showmodal = ref(false);
-let titleedit = ref(false);
+let titleedit = ref(true);
 let detailedit = ref(true);
 let bottomedit = ref(true);
 let title = ref('标题(双击可修改标题)');
