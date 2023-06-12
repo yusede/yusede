@@ -12,8 +12,7 @@
 
 <script setup>
 import { reactive } from 'vue';
-let arrtest=[255,654,354,]
-console.log(arrtest)
+
 let inputdata = reactive({
   item: ''
 });
